@@ -1,16 +1,20 @@
-title: Test-01
-description: Just an experiment to become familiar with the site.
-template:
-  repo: test-01-template
-  name: test-01
-before:
-  - type: createIssue
-    title: Welcome!
-    body: new-issue.md
-steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
-    actions:
-      - type: closeIssue
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Finding Cananda!</title>
+    </head>
+    <style>
+        body {
+        background-color: blue;
+        }
+        
+        
+    </style>
+    
+    
+    <body>
+        <h1 align="center">Traveling to Canada!</h1>
+        <h2 align="center"></h2>
+    </body>
+</html>
